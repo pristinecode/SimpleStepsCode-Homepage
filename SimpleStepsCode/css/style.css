@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Nunito-Light'), url(https://fonts.gstatic.com/s/nunito/v7/1TiHc9yag0wq3lDO9cw0vpBw1xU1rKptJj_0jans920.woff2) format('woff2'), url(https://fonts.gstatic.com/s/nunito/v7/1TiHc9yag0wq3lDO9cw0vrO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+
+body {
+	font-family: Nunito, Sans-serif;
+	margin: 0;
+	font-size: 20px;
+	color: #333;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 span,
+h2 span {
+    color: #09a;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.navbar {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+}
+
+.jumbotron {
+   
+    text-align: center;
+    background: #fff;
+}
+
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 63px;
+    font-family: georgia, 'Nunito', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    background: #09a;
+    color: #fff;
+    font-size: 36px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background: #1ab;
+}
+
+
+.wdd {
+    height: 60px;
+    opacity: 0.6;
+}
+
+
+.featured_logos {
+    margin: 10px 25px;
+    vertical-align: middle;
+    max-width: 60%;
+    height: 40px;
+}
+
+.jumbotron1 {
+    padding: 20px 10px;
+    text-align: center;
+    background: #fafafa;
+    color: #999;
+}
+
+.jumbotron1 h4 {
+        padding: 10px 0px;
+        font: inherit;
+}
+
+
+.what_you_gain {
+	text-align: center;
+}
+
+.what_you_gain h2{
+	font-size: 42px;
+	margin: 72px 10px;
+	padding-bottom: 12px;
+	border-bottom: 4px solid #0bd;
+	display: inline-block;
+}
+
+.what_you_gain h3{
+	font-size: 30px;
+	margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.gain_blurb{
+	background: #fafafa;
+	padding: 36px;
+	display: inline-block;
+	max-width: 310px;
+	margin: 10px;
+	vertical-align: top;
+    box-sizing: content-box;
+	border-radius: 5px;
+}
+
+.center{
+	text-align: center;
+}
+
+.well {
+    background: #fafafa;
+	padding: 48px 10px;
+	margin-top: 72px;
+    text-align: center;
+    border: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.well h2 {
+    max-width: 810px;
+    margin: 0px auto 36px;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.footer-right {
+    padding: 36px 10px;
+    text-align: right;
+}
+
+.footer-right a {
+	color: #09a;
+	display: inline;
+    margin: 0 48px 0 0;
+    text-decoration: underline;
+}
+
+
+.footer-right a:hover {
+    color: #2bc;
+}
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+/* Media queries */
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 21px;
+        margin: 0 0 18px;
+    }
+
+    .btn {
+        font-size: 21px;
+        padding: 18px;
+    }
+
+    .what_you_gain h2 {
+        font-size: 30px;
+        margin: 18px 10px;
+        padding-bottom: 12px;
+    }
+
+    .footer-right {
+		text-align: center;
+    }
+
+    .footer-right a {
+        display: block;
+        margin: 24px 0px;
+    }
+
+    .well h2 {
+        font-size: 20px;
+        margin: 0px auto 36px;
+    }
+}
+
